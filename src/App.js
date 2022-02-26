@@ -14,7 +14,7 @@ import { works, skills, projects, partners, testimonials, main, about } from './
 function App() {
   return (
     <>
-      {/* <Loader /> */}
+      <Loader />
       <Nav {...main} />
       <div id="pagepiling">
         <Masthead {...main} />

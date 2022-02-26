@@ -5,7 +5,7 @@ function Projects({ projects }) {
 
     return (
         <>
-            <section id="projects" className="navbar-is-white text-white section pp-scrollable position-absolute" style={{ backgroundImage: "url('img/bg/masthead.jpg')" }}>
+            <section id="projects" className="navbar-is-white text-white section pp-scrollable position-absolute" style={{ backgroundImage: "url('img/bg/projects.jpg')" }}>
                 <div className="project-wrap">
                     <div className="bg-changer">
                         <div className="section-bg active" style={{
@@ -23,7 +23,7 @@ function Projects({ projects }) {
                                             <div
                                                 onMouseEnter={() => setActive(image)} onMouseLeave={() => setActive(null)} className="col-project-box col-md-6 col-lg-4 col-xl-3"
                                             >
-                                                <a href={url} target="_blank" className="project-box">
+                                                <a href={url} target="_blank" rel="noreferrer" className="project-box">
                                                     <div className="project-box-inner">
                                                         <h4>{title}</h4>
                                                         <div className="project-category">{category}</div>

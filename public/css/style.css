@@ -321,8 +321,8 @@ label.error{
 .btn:focus,
 .btn:active{
   color: #000;
-  background-color: #ecff73;
-  border-color:#ecff73;
+  background-color: #68d854;
+  border-color:#68d854;
   -webkit-box-shadow:none;
   box-shadow: none;
   outline: none!important;
@@ -1371,7 +1371,6 @@ h1 + .line{
   height: 100%;
   padding:2.14rem 1.928rem;
 }
-
 .project-box h4{
   margin:0;
   color: #fff;

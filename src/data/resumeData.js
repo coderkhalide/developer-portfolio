@@ -60,21 +60,21 @@ export const works = [
             "title": "Founder",
             "image": "img/behance.png",
             "years": "March 2021 - Present",
-            "description": "• Developing revenue-generating applications at both small and large scales • Providing comprehensive maintenance support • Improving the user interface • Building apps for self-health and helping the nation"
+            "description": "• Developing revenue-generating applications at both small and large scales <br />• Providing comprehensive maintenance support <br />• Improving the user interface <br />• Building apps for self-health and helping the nation"
         },
         {
             "company": "DP-Websolutions",
             "title": "Full-Stack Developer & UI/UX designer",
             "image": "img/behance.png",
             "years": "July 2020 - Present",
-            "description": "• Dedicated years of collaborative effort resulted in 30% increase in company revenue • Responsible for testing applications and looking for bugs & monitoring website performance • Responsible for application code and UI/UX design • Built responsive custom WordPress themes from scratch also with DIVI theme • Optimized company website for performance and Search Engine Optimization"
+            "description": "• Dedicated years of collaborative effort resulted in 30% increase in company revenue <br />• Responsible for testing applications and looking for bugs & monitoring website performance <br />• Responsible for application code and UI/UX design <br />• Built responsive custom WordPress themes from scratch also with DIVI theme <br />• Optimized company website for performance and Search Engine Optimization"
         },
         {
             "company": "OpticEngine",
             "title": "Senior Lead Full-Stack Web & Mobile Developer",
             "image": "img/behance.png",
             "years": "June 2021 - October 21",
-            "description": "• Built websites with React JS and node js as backend • Designing web and mobile apps mockups using Figma • Designed and built the User Interface of the mobile app with React-native • Assist the backend developer on ongoing development projects • Participating in all decision-making processes which includes the database design, tooling, deployment processes etc"
+            "description": "• Built websites with React JS and node js as backend <br />• Designing web and mobile apps mockups using Figma <br />• Designed and built the User Interface of the mobile app with React-native <br />• Assist the backend developer on ongoing development projects <br />• Participating in all decision-making processes which includes the database design, tooling, deployment processes etc"
         }
     ],
     [
@@ -83,14 +83,14 @@ export const works = [
             "title": "Web Developer",
             "image": "img/behance.png",
             "years": "May 20 - Present",
-            "description": "• Built the company website with custom WordPress themes from scratch • Optimized company website for performance and Search Engine Optimization • Developed Custom Post Types and created custom fields with ACF plugins • Sliced up design assets from Photoshop files when building custom themes • Performed maintenance tasks on pre-existing sites using the Infinite WP dashboard, such as updating plugins, ensuring backups are running, and running security scans"
+            "description": "• Built the company website with custom WordPress themes from scratch <br />• Optimized company website for performance and Search Engine Optimization <br />• Developed Custom Post Types and created custom fields with ACF plugins <br />• Sliced up design assets from Photoshop files when building custom themes <br />• Performed maintenance tasks on pre-existing sites using the Infinite WP dashboard, such as updating plugins, ensuring backups are running, and running security scans"
         },
         {
             "company": "FN Softwares & institute",
             "title": "Trainer & Full-Stack Developer",
             "image": "img/behance.png",
             "years": "Aug 20 - Present",
-            "description": "• Trained programming over 500+ students on 2 successful courses • Developed beta version of 'eSomaz (a social media)' app, used by 20K+ active users (increased active user by 25%) • Developed a VS Code Extension for 'eSomaz' which helped to connect programmers • Worked as an adviser on decision-making processes • Motivated jr developers on programming & life "
+            "description": "• Trained programming over 500+ students on 2 successful courses <br />• Developed beta version of 'eSomaz (a social media)' app, used by 20K+ active users (increased active user by 25%) <br />• Developed a VS Code Extension for 'eSomaz' which helped to connect programmers <br />• Worked as an adviser on decision-making processes • Motivated jr developers on programming & life "
         }
     ]
 ]
@@ -140,19 +140,19 @@ export const projects = [
         "url": "https://zeppto.netlify.app"
     },
     {
-        "title": "WEB 3.0 Project - Decentralized chat application with moralis.io",
+        "title": "WEB 3 Decentralized chat application",
         "category": "Blockchain",
-        "image": "web3.jpg",
+        "image": "web3.png",
         "url": "https://meta-ks.vercel.app/"
     },
     {
         "title": "Food delivery app - Kennys Fish & Chips",
         "category": "App",
-        "image": "kenny.jpg",
+        "image": "Kennys Fish & Chips.png",
         "url": "https://play.google.com/store/apps/details?id=com.kennysfishandchips.app"
     },
     {
-        "title": "VS Code - Extension (for eSomaz ~ The biggest social media in Bangladesh)",
+        "title": "VS Code - Extension for eSomaz",
         "category": "VS Code - Extension",
         "image": "esomax-ext.jpg",
         "url": "https://marketplace.visualstudio.com/items?itemName=coderkhalid.esomaz"
@@ -170,13 +170,13 @@ export const projects = [
         "url": "https://www.youtube.com/watch?v=QdcaNakkbCI"
     },
     {
-        "title": "WhatsApp app clone",
+        "title": "WhatsApp app clone - React Native",
         "category": "App",
         "image": "whatsapp-app.jpg",
         "url": "https://youtu.be/tMmfcAipfW4"
     },
     {
-        "title": "Uber Eats clone",
+        "title": "Uber Eats clone - React Native",
         "category": "App",
         "image": "uber-eats.jpg",
         "url": "https://youtu.be/Z7rS3PM3Ap4"
@@ -278,7 +278,7 @@ export const projects = [
         "url": "https://whatsapp-clone-nextjs-six.vercel.app"
     },
     {
-        "title": "KS Classroom",
+        "title": "KS Classroom (LMS)",
         "category": "Website",
         "image": "classroom.jpg",
         "url": "https://ksdevware.com/classroom"
@@ -317,10 +317,16 @@ export const partners = [
         image: "2.webp"
     },
     {
-        image: "3.png"
+        image: "4.png"
     },
     {
-        image: "4.png"
+        image: "workslee.png"
+    },
+    {
+        image: "gorelove.png"
+    },
+    {
+        image: "3.png"
     },
 ]
 

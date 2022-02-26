@@ -13,13 +13,13 @@ function About({ bio, ido, years, image, video, resumedownload }) {
                                     <div className="mt-5 pt-2"
                                         dangerouslySetInnerHTML={{ __html: ido }}
                                     />
-                                    <a target="_blank" href={resumedownload} className="btn">Download Resume</a>
+                                    <a target="_blank" rel="noreferrer" href={resumedownload} className="btn">Download Resume</a>
                                 </div>
                                 <div className="mt-5 mt-md-0 col-md-6 col-lg-5  offset-lg-1">
                                     <div className="position-relative">
                                         <img alt="" className="border-radius w-100" src={image} />
                                         {video && (
-                                            <a href={video} className="icon-play popup-youtube"></a>
+                                            <a href={video} className="icon-play popup-youtube"><span></span></a>
                                         )}
                                         <div className="experience-info">
                                             <div className="experience-number">{years}</div>

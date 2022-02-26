@@ -11,7 +11,7 @@ function Scrollbar() {
                     <li data-menuanchor="projects"></li>
                     <li data-menuanchor="partners"></li>
                     <li data-menuanchor="testimonials"></li>
-                    <li data-menuanchor="news"></li>
+                    {/* <li data-menuanchor="news"></li> */}
                     <li data-menuanchor="contact"></li>
                 </ul>
             </div>

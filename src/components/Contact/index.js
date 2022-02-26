@@ -18,7 +18,7 @@ function Contact({ quote, address, phone, email }) {
     return (
         <>
             <section id="contact" className="navbar-is-white text-white section pp-scrollable position-absolute"
-                style={{ backgroundImage: "url('img/bg/masthead.jpg')" }}>
+                style={{ backgroundImage: "url('img/bg/contact.jpg')" }}>
                 <div className="intro">
                     <div className="scroll-wrap">
                         <div className="container">
@@ -47,7 +47,10 @@ function Contact({ quote, address, phone, email }) {
                                                 />
                                             </div>
                                             <div className="form-group">
-                                                <input type="email" name="email" className="form-control" required=""
+                                                <input 
+                                                    type="email" 
+                                                    name="email" 
+                                                    className="form-control"
                                                     placeholder="Email *"
                                                     value={iemail}
                                                     required
@@ -55,7 +58,9 @@ function Contact({ quote, address, phone, email }) {
                                                 />
                                             </div>
                                             <div className="form-group">
-                                                <textarea rows="3" name="message" className="form-control"
+                                                <textarea 
+                                                    rows="3" name="message" 
+                                                    className="form-control"
                                                     placeholder="Message"
                                                     value={message}
                                                     required

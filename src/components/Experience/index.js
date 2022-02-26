@@ -21,7 +21,7 @@ function Experience({ works }) {
                                                         {item?.years} 
                                                         <h5 className="my-2 text-white">{item?.company}</h5>
                                                     </div>
-                                                    <div className="col-md-7">{item?.description}</div>
+                                                    <div className="col-md-7" dangerouslySetInnerHTML={{ __html: item?.description }} />
                                                 </div>
                                             ))}
                                         </div>
