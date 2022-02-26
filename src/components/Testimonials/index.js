@@ -1,5 +1,5 @@
 
-function Testimonials() {
+function Testimonials({ testimonials }) {
     return (
         <>
             <section id="testimonials"
@@ -16,22 +16,13 @@ function Testimonials() {
                                 </div>
                                 <div className="col-lg-5 col-xl-5  offset-lg-1 offset-xl-2">
                                     <div className="carousel-testimonials owl-carousel">
-                                        <div>
-                                            <p className="mb-5"><strong>Amanda</strong><br />Apple inc.</p>
-                                            <p>“There are many variations of passages of Lorem Ipsum available, but the
-                                                majority have suffered alteration in some form, by injected humour, or
-                                                randomised words which don't look even slightly believable. If you are going
-                                                to use a passage of Lorem Ipsum, you need to be sure there isn't anything..
-                                            </p>
-
-                                        </div>
-                                        <div>
-                                            <p className="mb-5"><strong>John</strong><br />Google</p>
-                                            <p>“ If you are seeking an Interior designer that will understand exactly your
-                                                needs, and someone who will utilise their creative and technical skills in
-                                                parity with your taste, then Suzanne at The Bauhaus Studio is perfect.
-                                            </p>
-                                        </div>
+                                        {testimonials.map((testimonial, index) => (
+                                            <div key={index}>
+                                                <p className="mb-5"><strong>{testimonial?.user}</strong><br />{testimonial?.company}</p>
+                                                <p>“ {testimonial?.text}
+                                                </p>
+                                            </div>
+                                        ))}
                                     </div>
                                 </div>
                             </div>

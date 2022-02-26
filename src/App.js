@@ -7,36 +7,25 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Partners from './components/Partners';
 import Testimonials from './components/Testimonials';
-import News from './components/News';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
-import { useState, useEffect } from 'react';
+import { works, skills, projects, partners, testimonials, main, about } from './data/resumeData';
 
 function App() {
-  const [resumeData, setResumeData] = useState(null);
-
-  useEffect(() => {
-    fetch("/resumeData.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setResumeData(data);
-      });
-  }, []);
-
   return (
     <>
       {/* <Loader /> */}
-      <Nav {...resumeData?.main} />
+      <Nav {...main} />
       <div id="pagepiling">
-        <Masthead {...resumeData?.main} />
-        <About {...resumeData?.about} />
-        <Experience />
-        <Skills />
-        <Projects />
-        <Partners />
-        <Testimonials />
-        <News />
-        <Contact />
+        <Masthead {...main} />
+        <About {...about} />
+        <Experience works={works} />
+        <Skills {...skills} />
+        <Projects projects={projects} />
+        <Partners partners={partners} />
+        <Testimonials testimonials={testimonials} />
+        {/* <News /> */}
+        <Contact {...main} />
       </div>
       <Scrollbar />
     </>

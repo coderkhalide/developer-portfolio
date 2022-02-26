@@ -1,5 +1,5 @@
 
-function About({ bio, ido, years, image, video }) {
+function About({ bio, ido, years, image, video, resumedownload }) {
     return (
         <>
             <section id="about" className="section pp-scrollable d-flex align-items-center position-absolute">
@@ -12,15 +12,15 @@ function About({ bio, ido, years, image, video }) {
                                     <h2 dangerouslySetInnerHTML={{ __html: bio }}></h2>
                                     <div className="mt-5 pt-2"
                                         dangerouslySetInnerHTML={{ __html: ido }}
-                                    >
-
-                                    </div>
+                                    />
+                                    <a target="_blank" href={resumedownload} className="btn">Download Resume</a>
                                 </div>
                                 <div className="mt-5 mt-md-0 col-md-6 col-lg-5  offset-lg-1">
                                     <div className="position-relative">
                                         <img alt="" className="border-radius w-100" src={image} />
-                                        <a href={video}
-                                            className="icon-play popup-youtube"></a>
+                                        {video && (
+                                            <a href={video} className="icon-play popup-youtube"></a>
+                                        )}
                                         <div className="experience-info">
                                             <div className="experience-number">{years}</div>
                                             <div className="experience-text">YEARS<br /> EXPERIENCE<br /> WORKING</div>

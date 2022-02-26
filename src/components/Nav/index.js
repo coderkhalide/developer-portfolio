@@ -51,7 +51,7 @@ function Nav({ name, phone, email, social }) {
                     <li><a className="nav-link" data-menuanchor="projects" href="#projects">Projects</a></li>
                     <li><a className="nav-link" data-menuanchor="partners" href="#partners">Partners</a></li>
                     <li><a className="nav-link" data-menuanchor="testimonials" href="#testimonials">Testimonials</a></li>
-                    <li><a className="nav-link" data-menuanchor="news" href="#news">News</a></li>
+                    {/* <li><a className="nav-link" data-menuanchor="news" href="#news">News</a></li> */}
                     <li><a className="nav-link" data-menuanchor="contact" href="#contact">Contact</a></li>
                 </ul>
             </nav>

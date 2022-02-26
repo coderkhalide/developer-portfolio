@@ -1,6 +1,5 @@
-import React from 'react'
 
-function Experience() {
+function Experience({ works }) {
     return (
         <>
             <section id="experience"
@@ -12,61 +11,21 @@ function Experience() {
                             <h2 className="text-white mb-0">Experience</h2>
                             <div className="mt-5 pt-5">
                                 <div className="carousel-experience owl-carousel">
-                                    <div className="experience-item">
-                                        <div className="row row-experience">
-                                            <div className="col-md-4"><a href=""><img alt="" src="img/behance.png" /></a></div>
-                                            <div className="col-md-4 my-4">2019-2020 <h3 className="my-0 text-white">Behance</h3>
-                                            </div>
-                                            <div className="col-md-4">But I must explain to you how all this mistaken idea of
-                                                denouncing pleasure and praising pain was born and I will give you a
-                                                complete</div>
+                                    {works?.map((item, index) => (
+                                        <div key={index} className="experience-item">
+                                            {item?.map((item, index) => (
+                                                <div key={index} className="row row-experience">
+                                                    {/* <div className="col-md-2"><a href=""><img loading="lazy" alt="" src={item?.image} /></a></div> */}
+                                                    <div className="col-md-5 my-4">
+                                                        <h3 className="my-0 text-white">{item?.title}</h3>
+                                                        {item?.years} 
+                                                        <h5 className="my-2 text-white">{item?.company}</h5>
+                                                    </div>
+                                                    <div className="col-md-7">{item?.description}</div>
+                                                </div>
+                                            ))}
                                         </div>
-                                        <div className="row row-experience">
-                                            <div className="col-md-4"><a href=""><img alt="" src="img/cssdesignawards.png" /></a>
-                                            </div>
-                                            <div className="col-md-4 my-4">2017-2019 <h3 className="my-0 text-white">CSSDesign</h3>
-                                            </div>
-                                            <div className="col-md-4">But I must explain to you how all this mistaken idea of
-                                                denouncing pleasure and praising pain was born and I will give you a
-                                                complete</div>
-                                        </div>
-                                        <div className="row row-experience">
-                                            <div className="col-md-4"><a href=""><img alt="" src="img/envato.png" /></a></div>
-                                            <div className="col-md-4">2013-2017 <h3 className="my-0 text-white">Envato</h3>
-                                            </div>
-                                            <div className="col-md-4">But I must explain to you how all this mistaken idea of
-                                                denouncing pleasure and praising pain was born and I will give you a
-                                                complete</div>
-                                        </div>
-                                    </div>
-                                    <div className="experience-item">
-                                        <div className="row row-experience">
-                                            <div className="col-md-4"><a href=""><img alt="" src="img/behance.png" /></a></div>
-                                            <div className="col-md-4 my-4">2019-2020 <h3 className="my-0 text-white">Behance</h3>
-                                            </div>
-                                            <div className="col-md-4">But I must explain to you how all this mistaken idea of
-                                                denouncing pleasure and praising pain was born and I will give you a
-                                                complete</div>
-                                        </div>
-                                        <div className="row row-experience">
-                                            <div className="col-md-4"><a href=""><img alt="" src="img/cssdesignawards.png" /></a>
-                                            </div>
-                                            <div className="col-md-4 my-4">2017-2019 <h3 className="my-0 text-white">CSSDesignAwards
-                                            </h3>
-                                            </div>
-                                            <div className="col-md-4">But I must explain to you how all this mistaken idea of
-                                                denouncing pleasure and praising pain was born and I will give you a
-                                                complete</div>
-                                        </div>
-                                        <div className="row row-experience">
-                                            <div className="col-md-4"><a href=""><img alt="" src="img/envato.png" /></a></div>
-                                            <div className="col-md-4 my-4">2013-2017 <h3 className="my-0 text-white">Envato</h3>
-                                            </div>
-                                            <div className="col-md-4">But I must explain to you how all this mistaken idea of
-                                                denouncing pleasure and praising pain was born and I will give you a
-                                                complete</div>
-                                        </div>
-                                    </div>
+                                    ))}
                                 </div>
                             </div>
                         </div>
