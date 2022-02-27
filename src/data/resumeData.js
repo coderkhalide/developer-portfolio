@@ -100,28 +100,20 @@ export const skills = {
     subtitle: "Developing software for the world of intent is something I'm passionate about and I'm dedicated to making the world of intent easy and affordable for everyone.",
     skills: [
         {
-            "name": "JavaScript",
-            "level": 90
+            "title": "Ninja at",
+            skills: ["JavaScript", "React JS", "React Native"]
         },
         {
-            "name": "React Js",
-            "level": 90
+            "title": "Expert at",
+            skills: ["Next JS", "Node JS", "Express JS", "MongoDB", "MySQL", "CSS"]
         },
         {
-            "name": "Node Js",
-            "level": 80
+            "title": "Good at",
+            skills: ["Redux", "UI/UX Design", "Firebase", "WordPress", "Git, GitHub", "Jquery", "Tailwind CSS", "Rest APIs"]
         },
         {
-            "name": "React Native",
-            "level": 85
-        },
-        {
-            "name": "SQL",
-            "level": 85
-        },
-        {
-            "name": "NoSQL",
-            "level": 80
+            "title": "Cool at",
+            skills: ["PWA", "SEO", "Figma", "PHP", "SCSS", "Jquery", "Bootstrap", "Material UI", "HTML", "AJAX"]
         },
     ]
 }

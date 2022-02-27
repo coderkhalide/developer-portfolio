@@ -39,7 +39,7 @@ function Nav({ name, phone, email, social, resumedownload }) {
             </nav>
 
             <nav className="navbar navbar-mobile">
-                <span className="close_icon">
+                <span className="close_icon close">
                     <ion-icon name="close-outline"></ion-icon>
                 </span>
 

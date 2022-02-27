@@ -1267,6 +1267,18 @@ h1+.line {
   transition-delay: 1s
 }
 
+.exp_skills h4{
+  margin-bottom: 10px;
+}
+.skills_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.3rem;
+}
+.skill-item{
+  font-weight: bold;
+}
+
 .progress {
   height: 6px;
   border-radius: 0;
@@ -1422,18 +1434,6 @@ h1+.line {
   color: #666666;
 }
 
-@media (max-width: 1500px) {
-  .project-box{
-    padding-bottom: 70%;
-  }
-  .project-box-inner h4 {
-    font-size: 1.3rem;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-}
-
 @media (min-width: 768px) {
   .project-box {
     padding-bottom: 75%;
@@ -1445,6 +1445,17 @@ h1+.line {
   }
 }
 
+@media (max-width: 767px) {
+  .project-box{
+    padding-bottom: 40%;
+  }
+  .project-box-inner h4 {
+    font-size: 1.3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
 
 
 /* 3.7 Partners */
