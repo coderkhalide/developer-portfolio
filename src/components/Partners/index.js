@@ -11,7 +11,7 @@ function Partners({ partners }) {
                             <div className="mt-5 pt-2">
                                 <div className="row-partners row align-items-center ">
                                     {partners.map((partner, index) => (
-                                        <div key={index} className="col-partner col-sm-6 col-md-4  col-xl-3">
+                                        <div key={index} className="col-partner col-9 col-sm-6 col-md-4 col-xl-3">
                                             <img alt="" src={`img/partners/${partner?.image}`} />
                                         </div>
                                     ))}

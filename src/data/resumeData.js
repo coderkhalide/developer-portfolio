@@ -130,7 +130,7 @@ export const projects = [
     {
         "title": "Business website",
         "category": "Website",
-        "image": "business.png",
+        "image": "business2.png",
         "url": "https://megakit-web.netlify.app"
     },
     {
@@ -140,13 +140,13 @@ export const projects = [
         "url": "https://zeppto.netlify.app"
     },
     {
-        "title": "WEB 3 Decentralized chat application",
+        "title": "Decentralized chat application",
         "category": "Blockchain",
         "image": "web3.png",
         "url": "https://meta-ks.vercel.app/"
     },
     {
-        "title": "Food delivery app - Kennys Fish & Chips",
+        "title": "Food delivery app - (Play store)",
         "category": "App",
         "image": "Kennys Fish & Chips.png",
         "url": "https://play.google.com/store/apps/details?id=com.kennysfishandchips.app"
@@ -260,15 +260,15 @@ export const projects = [
         "url": "https://ksdevware.com/dekto"
     },
     {
-        "title": "Peer4Tree website's UI design",
+        "title": "Peer4Tree.com",
         "category": "UI/UX Design",
         "image": "peer4tree.jpg",
         "url": "https://peer4-tree.web.app"
     },
     {
-        "title": "KS Loomly - MERN blog website",
+        "title": "MERN blog website",
         "category": "Website",
-        "image": "ks-loomly.jpg",
+        "image": "loomly.jpg",
         "url": "https://ks-loomly.herokuapp.com"
     },
     {
@@ -290,13 +290,13 @@ export const projects = [
         "url": "https://prolingua.fi"
     },
     {
-        "title": "Peer4Car admin dashboard UI design",
+        "title": "Peer4Car.com Dashboard UI",
         "category": "UI/UX Design",
         "image": "peer4-admin.jpg",
         "url": "https://www.figma.com/proto/yoQYmaIIPaTQapbwyzr4AI/PEER4-CAR?node-id=1%3A2&viewport=578%2C-192%2C0.38818028569221497&scaling=min-zoom&page-id=0%3A1"
     },
     {
-        "title": "Restarant website UI design",
+        "title": "Restarant UI design",
         "category": "UI/UX Design",
         "image": "res-ui-deisgn.jpg",
         "url": "https://www.figma.com/proto/CEUw87emTmSLLXCO4hfdSb/RESTAURANT-Theme?node-id=1%3A2&viewport=491%2C87%2C0.25013697147369385&scaling=min-zoom&page-id=0%3A1"
