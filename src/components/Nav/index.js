@@ -10,7 +10,7 @@ function Nav({ name, phone, email, social, resumedownload }) {
                     <a className="navbar-brand" href="#home">{name?.split(' ')[0]} {name?.split(' ')[1][0]}.</a>
                     <div className="container d-block">
                         <a className="phone  my-0 d-none d-md-block" href={`tel: ${phone}`}>{phone}</a>
-                        <a className="email  my-0 d-none d-md-block" href={`mailto: ${phone}`}>{email}</a>
+                        <a className="email  my-0 d-none d-md-block" href={`mailto: ${email}`}>{email}</a>
                     </div>
 
                     <button className="toggler">
@@ -42,7 +42,17 @@ function Nav({ name, phone, email, social, resumedownload }) {
                 <span className="close_icon close">
                     <ion-icon name="close-outline"></ion-icon>
                 </span>
-
+                <div className="mobile_social">
+                    <ul className="social-icons mr-auto mr-lg-0 d-none d-sm-block">
+                        {social?.map((item, index) => (
+                            <li key={index}>
+                                <a href={item?.url} target="_blank" rel="noreferrer" >
+                                    <ion-icon name={item?.iconName}></ion-icon>
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
 
                 <ul className="navbar-nav navbar-nav-mobile">
                     <li className="active"><a className="nav-link active" data-menuanchor="home" href="#home">Home</a></li>
@@ -56,6 +66,7 @@ function Nav({ name, phone, email, social, resumedownload }) {
                     <li><a className="nav-link" data-menuanchor="contact" href="#contact">Contact</a></li>
                 </ul>
                 <a target="_blank" rel="noreferrer" href={resumedownload} className="btn">Download Resume</a>
+                
             </nav>
         </>
     )

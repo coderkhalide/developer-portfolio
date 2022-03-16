@@ -101,19 +101,43 @@ export const skills = {
     skills: [
         {
             "title": "Ninja at",
-            skills: ["JavaScript", "React JS", "React Native"]
+            skills: ["JavaScript", "React JS", "React Native", "Node JS"]
         },
         {
-            "title": "Expert at",
-            skills: ["Next JS", "Node JS", "Express JS", "MongoDB", "MySQL", "CSS"]
+            "title": "Front-end",
+            skills: ["JavaScript", "React JS", "Next JS", "HTML/CSS", "SCSS", "UI/UX Design", "Jquery", "Redux"]
         },
         {
-            "title": "Good at",
-            skills: ["Redux", "UI/UX Design", "Firebase", "WordPress", "Git, GitHub", "Jquery", "Tailwind CSS", "Rest APIs"]
+            "title": "Back-end",
+            skills: ["Node JS", "Express JS", "React Native", "Rest API", "PHP"]
         },
         {
-            "title": "Cool at",
-            skills: ["PWA", "SEO", "Figma", "PHP", "SCSS", "Jquery", "Bootstrap", "Material UI", "HTML", "AJAX"]
+            "title": "Database",
+            skills: ["MySQL", "MongoDB", "Firebase", "redis"]
+        },
+        {
+            "title": "App development",
+            skills: ["React Native"]
+        },
+        {
+            "title": "Game development",
+            skills: ["unity", "C#", "C"]
+        },
+        {
+            "title": "Payment",
+            skills: ["Stripe", "Paypal", "SslCommerz", "Bkash"]
+        },
+        {
+            "title": "Cloud",
+            skills: ["Google", "AWS", "Digital ocean", "Heroku", "Vercel"]
+        },
+        {
+            "title": "Libraries",
+            skills: ["Tailwind CSS", "Bootstrap", "Material UI"]
+        },
+        {
+            "title": "Others",
+            skills: ["Git", "GitHub", "PWA", "PWA", "Figma", "AJAX", "WordPress", "Google Map", "Mapbox", "blockchain"]
         },
     ]
 }

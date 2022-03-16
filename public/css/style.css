@@ -901,8 +901,13 @@ ion-icon {
   visibility: visible;
   opacity: 1;
 }
-
-
+.mobile_social .social-icons ion-icon{
+  color: #fff;
+}
+.mobile_social .social-icons li{
+  margin-left: 0;
+  margin-right: 1.5rem;
+}
 /* 2.3 Navbar Fixed */
 
 
