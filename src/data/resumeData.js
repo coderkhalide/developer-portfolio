@@ -55,13 +55,7 @@ export const about = {
 
 export const works = [
     [
-        {
-            "company": "KS Devware",
-            "title": "Founder",
-            "image": "img/behance.png",
-            "years": "March 2021 - Present",
-            "description": "• Developing revenue-generating applications at both small and large scales <br />• Providing comprehensive maintenance support <br />• Improving the user interface <br />• Building apps for self-health and helping the nation"
-        },
+        
         {
             "company": "DP-Websolutions",
             "title": "Full-Stack Developer & UI/UX designer",
@@ -75,7 +69,14 @@ export const works = [
             "image": "img/behance.png",
             "years": "June 2021 - October 21",
             "description": "• Built websites with React JS and node js as backend <br />• Designing web and mobile apps mockups using Figma <br />• Designed and built the User Interface of the mobile app with React-native <br />• Assist the backend developer on ongoing development projects <br />• Participating in all decision-making processes which includes the database design, tooling, deployment processes etc"
-        }
+        },
+        {
+            "company": "FN Softwares & institute",
+            "title": "Trainer & Full-Stack Developer",
+            "image": "img/behance.png",
+            "years": "Aug 20 - Present",
+            "description": "• Trained programming over 500+ students on 2 successful courses <br />• Developed beta version of 'eSomaz (a social media)' app, used by 20K+ active users (increased active user by 25%) <br />• Developed a VS Code Extension for 'eSomaz' which helped to connect programmers <br />• Worked as an adviser on decision-making processes • Motivated jr developers on programming & life "
+        },
     ],
     [
         {
@@ -86,12 +87,12 @@ export const works = [
             "description": "• Built the company website with custom WordPress themes from scratch <br />• Optimized company website for performance and Search Engine Optimization <br />• Developed Custom Post Types and created custom fields with ACF plugins <br />• Sliced up design assets from Photoshop files when building custom themes <br />• Performed maintenance tasks on pre-existing sites using the Infinite WP dashboard, such as updating plugins, ensuring backups are running, and running security scans"
         },
         {
-            "company": "FN Softwares & institute",
-            "title": "Trainer & Full-Stack Developer",
+            "company": "KS Devware",
+            "title": "Founder",
             "image": "img/behance.png",
-            "years": "Aug 20 - Present",
-            "description": "• Trained programming over 500+ students on 2 successful courses <br />• Developed beta version of 'eSomaz (a social media)' app, used by 20K+ active users (increased active user by 25%) <br />• Developed a VS Code Extension for 'eSomaz' which helped to connect programmers <br />• Worked as an adviser on decision-making processes • Motivated jr developers on programming & life "
-        }
+            "years": "March 2021 - Present",
+            "description": "• Developing revenue-generating applications at both small and large scales <br />• Providing comprehensive maintenance support <br />• Improving the user interface <br />• Building apps for self-health and helping the nation"
+        },
     ]
 ]
 
