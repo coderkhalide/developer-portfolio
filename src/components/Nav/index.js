@@ -43,7 +43,7 @@ function Nav({ name, phone, email, social, resumedownload }) {
                     <ion-icon name="close-outline"></ion-icon>
                 </span>
                 <div className="mobile_social">
-                    <ul className="social-icons mr-auto mr-lg-0 d-none d-sm-block">
+                    <ul className="social-icons mr-auto mr-lg-0 d-block d-sm-none">
                         {social?.map((item, index) => (
                             <li key={index}>
                                 <a href={item?.url} target="_blank" rel="noreferrer" >
