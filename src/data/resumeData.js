@@ -1,7 +1,7 @@
 export const main = {
     "name": "Khalid Saifullah",
     "occupation": "Founder of KS Devware",
-    "description": "I'm Software Engineer",
+    "description": "Software Engineer | Entrepreneur",
     "image": "profilepic.jpg",
     "bio": "As the founder of KS Devware (software development company), I am Khalid Saifullah. A young entrepreneur. With nearly 4 years of experience, I’m a software engineer (full-stack web & mobile) and UI/UX designer. Worked as a senior lead full-stack developer at OpticEngine had been a rewarding experience. Moreover, I work on a few startups aimed at the Bangladesh, Russian, Chinese, American, and Dutch markets. Among the companies and entrepreneurs I have worked with are DP-Websolutions, Ganlax group, Hyvinvoivin, Happy-Dairy, Arrtal, FN Softwares & institute, and many more. Developing software for the world of intent is something I'm passionate about and I'm dedicated to making the world of intent easy and affordable for everyone.",
     "email": "khalideofficial@gmail.com",
@@ -9,7 +9,7 @@ export const main = {
     "quote": "The universe is a pretty big place. If it's just us.",
     "address": "Badda, Dhaka, Bangladesh",
     "website": "https://khaliddev.com",
-    "resumedownload": "https://drive.google.com/file/d/1uJ9B1U15GI5jPZfzen3Kk8X5HUgG_qDG/view?usp=sharing",
+    "resumedownload": "https://docs.google.com/document/d/1APRM9vrs3bSMCw41v4UHBuLj1xRmBdJ0NLxxpAoWlrY/edit?usp=sharing",
     "social": [
         {
             "name": "linkedin",
@@ -50,7 +50,7 @@ export const about = {
     "years": 4,
     "image": "img/profilepic.jpg",
     // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
-    "resumedownload": "https://drive.google.com/file/d/1uJ9B1U15GI5jPZfzen3Kk8X5HUgG_qDG/view?usp=sharing",
+    "resumedownload": "https://docs.google.com/document/d/1APRM9vrs3bSMCw41v4UHBuLj1xRmBdJ0NLxxpAoWlrY/edit?usp=sharing",
 }
 
 export const works = [
@@ -93,6 +93,13 @@ export const works = [
             "years": "March 2021 - Present",
             "description": "• Developing revenue-generating applications at both small and large scales <br />• Providing comprehensive maintenance support <br />• Improving the user interface <br />• Building apps for self-health and helping the nation"
         },
+        {
+            "company": "WorksLee",
+            "title": "Founder",
+            "image": "img/behance.png",
+            "years": "Januery 2022 - Present",
+            "description": "• WorksLee is a peer-to-peer marketplace designed to help people manage their daily workload. It's a place where we are empowering small local entrepreneurs. and helping people to earn by part-time handy work."
+        },
     ]
 ]
 
@@ -110,7 +117,7 @@ export const skills = {
         },
         {
             "title": "Back-end",
-            skills: ["Node JS", "Express JS", "React Native", "Rest API", "PHP"]
+            skills: ["Node JS", "Express JS", "Rest API", "PHP"]
         },
         {
             "title": "Database",
@@ -138,7 +145,7 @@ export const skills = {
         },
         {
             "title": "Others",
-            skills: ["Git", "GitHub", "PWA", "PWA", "Figma", "AJAX", "WordPress", "Google Map", "Mapbox", "blockchain"]
+            skills: ["Git", "GitHub", "PWA", "Figma", "AJAX", "WordPress", "Google Map", "Mapbox", "blockchain"]
         },
     ]
 }
