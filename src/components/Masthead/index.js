@@ -13,7 +13,7 @@ function Masthead({ description, name }) {
                                 <div className="col-lg-6 col-xl-5">
                                     <div className="mb-2" dangerouslySetInnerHTML={{__html: description}}></div>
                                     <h1 className="text-white hero_heading"><span
-                                        className="text-primary text-typed a-typed a-typed-about">Hello,</span> It's {name}</h1>
+                                        className="text-primary text-typed a-typed a-typed-about">Hi,</span> I'm {name}</h1>
                                     <div className="line"></div>
                                 </div>
                             </div>

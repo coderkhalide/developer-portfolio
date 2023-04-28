@@ -10,12 +10,12 @@ function Skills({ skills, title, subtitle }) {
                                 <div className="col-lg-5">
                                     <div className="position-relative">
                                         <div className="photo-icon photo-icon-1"><img alt="" className="w-100"
-                                            src="img/100x100.jpg" /></div>
-                                        <div className="photo-icon photo-icon-2"><img alt="" className="w-100" src="img/80x80.jpg" />
+                                            src="img/100x100.jpg" loading="lazy" /></div>
+                                        <div className="photo-icon photo-icon-2"><img alt="" className="w-100" src="img/80x80.jpg" loading="lazy" />
                                         </div>
                                         <div className="photo-icon photo-icon-3"><img alt="" className="w-100"
-                                            src="img/100x100-2.jpg" /></div>
-                                        <img alt="" className="border-radius w-100" src="img/skills.jpg" />
+                                            src="img/100x100-2.jpg" loading="lazy" /></div>
+                                        <img alt="" className="border-radius w-100" src="img/skills.jpg" loading="lazy" />
                                     </div>
                                 </div>
                                 <div className="mt-5 mt-lg-0 col-lg-5 offset-lg-1">

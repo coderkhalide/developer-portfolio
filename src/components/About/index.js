@@ -17,7 +17,7 @@ function About({ bio, ido, years, image, video, resumedownload }) {
                                 </div>
                                 <div className="mt-5 mt-md-0 col-md-6 col-lg-5  offset-lg-1">
                                     <div className="position-relative">
-                                        <img alt="" className="border-radius w-100" src={image} />
+                                        <img alt="" className="border-radius w-100" src={image} loading="lazy" />
                                         {video && (
                                             <a href={video} className="icon-play popup-youtube"><span></span></a>
                                         )}

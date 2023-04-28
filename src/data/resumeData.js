@@ -1,7 +1,7 @@
 export const main = {
     "name": "Khalid Saifullah",
     "occupation": "Founder of KS Devware",
-    "description": "I'm Software Engineer",
+    "description": "Software Engineer | Entrepreneur",
     "image": "profilepic.jpg",
     "bio": "As the founder of KS Devware, WorksLee, Pocotep, and GoreLove, and the co-founder and CTO of Arrtal and Adatun, I have proven experience building and leading successful companies. My technical expertise, leadership skills, and entrepreneurial spirit have enabled me to create innovative products and services that meet the needs of my customers. I am driven by a passion for problem-solving and a desire to positively impact the world through my work. As a Full-stack JavaScript developer, UI/UX designer, mobile app developer, and digital marketer with over 5 years of experience, I have a diverse set of skills that make me well-suited to tackle a wide range of projects. My expertise in JavaScript and its frameworks, such as React and Node, enables me to build dynamic and responsive websites and applications. My front-end skills in HTML, CSS, and React allow me to create visually appealing and user-friendly interfaces. My experience with back-end technologies like Express and REST API enables me to connect my web and mobile applications to databases and other resources. In addition to my technical skills, I have a strong understanding of design principles and user experience, as demonstrated by my experience with libraries like Tailwind CSS, Bootstrap, and Material UI. My ability to use Figma and other design tools allows me to create mockups and prototypes that effectively communicate my ideas. My familiarity with payment systems like Stripe, and PayPal will enable me to integrate financial transactions into my projects. I have extensive leadership experience and am comfortable managing a team of 10 engineers and designers. As a startup founder and someone who has worked with multiple companies throughout my career, I have a track record of helping businesses grow and succeed. I am also a coding instructor, demonstrating my ability to effectively communicate technical concepts and mentor others in their development journey. My familiarity with cloud platforms like Google, AWS, Digital Ocean, Heroku, and Vercel enables me to deploy and host my applications and websites in a scalable and reliable manner. My experience with blockchain and web3.js allows me to explore the potential of decentralized applications and incorporate them into my work. My proficiency with Git and GitHub enables me to collaborate with other developers and manage version control in my projects. My knowledge of PWA (Progressive Web Apps) allows me to build applications that are fast, reliable, and work offline, giving users a seamless experience on any device. Finally, I'm so cool.",
     "email": "khalideofficial@gmail.com",
@@ -9,7 +9,7 @@ export const main = {
     "quote": "The universe is a pretty big place. If it's just us.",
     "address": "Badda, Dhaka, Bangladesh",
     "website": "https://khaliddev.com",
-    "resumedownload": "https://drive.google.com/file/d/1uJ9B1U15GI5jPZfzen3Kk8X5HUgG_qDG/view?usp=sharing",
+    "resumedownload": "https://docs.google.com/document/d/1APRM9vrs3bSMCw41v4UHBuLj1xRmBdJ0NLxxpAoWlrY/edit?usp=sharing",
     "social": [
         {
             "name": "linkedin",
@@ -50,7 +50,7 @@ export const about = {
     "years": 5,
     "image": "img/profilepic.jpg",
     // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
-    "resumedownload": "https://drive.google.com/file/d/1uJ9B1U15GI5jPZfzen3Kk8X5HUgG_qDG/view?usp=sharing",
+    "resumedownload": "https://docs.google.com/document/d/1APRM9vrs3bSMCw41v4UHBuLj1xRmBdJ0NLxxpAoWlrY/edit?usp=sharing",
 }
 
 export const works = [
@@ -99,7 +99,16 @@ export const works = [
             "image": "img/behance.png",
             "years": "June 2021 - October 21",
             "description": "• Built websites with React JS and node js as backend <br />• Designing web and mobile apps mockups using Figma <br />• Designed and built the User Interface of the mobile app with React-native <br />• Assist the backend developer on ongoing development projects <br />• Participating in all decision-making processes which includes the database design, tooling, deployment processes etc"
-        },
+        }
+    ],
+    [
+        {
+            "company": "WorksLee",
+            "title": "Founder",
+            "image": "img/behance.png",
+            "years": "Januery 2022 - Present",
+            "description": "• WorksLee is a peer-to-peer marketplace designed to help people manage their daily workload. It's a place where we are empowering small local entrepreneurs. and helping people to earn by part-time handy work."
+        }
     ]
 ]
 
@@ -117,7 +126,7 @@ export const skills = {
         },
         {
             "title": "Back-end",
-            skills: ["Node JS", "Express JS", "React Native", "Rest API", "PHP"]
+            skills: ["Node JS", "Express JS", "Rest API", "PHP"]
         },
         {
             "title": "Database",
@@ -145,7 +154,7 @@ export const skills = {
         },
         {
             "title": "Others",
-            skills: ["Git", "GitHub", "PWA", "PWA", "Figma", "AJAX", "WordPress", "Google Map", "Mapbox", "blockchain"]
+            skills: ["Git", "GitHub", "PWA", "Figma", "AJAX", "WordPress", "Google Map", "Mapbox", "blockchain"]
         },
     ]
 }
