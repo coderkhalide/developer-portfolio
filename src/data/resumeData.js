@@ -47,7 +47,7 @@ export const main = {
 export const about = {
     "bio": "I'm a <span class='text-primary'>software</span> <u>engineer</u> turned <span class='text-primary'>entrepreneur</span> who creates innovative solutions and builds <span class='text-primary'>successful</span> <u>businesses</u>",
     "ido": "<p>• WEB DEVELOPMENT</p><p>• APP DEVELOPMENT</p><p>• UI/UX DESIGN</p><p>• FULL-STACK DEVELOPMENT</p><p>• DIGITAL MARKETING</p><p>• ENTREPRENEURSHIP</p>",
-    "years": 5,
+    "years": 7,
     "image": "img/profilepic.jpg",
     // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
     "resumedownload": "https://docs.google.com/document/d/1APRM9vrs3bSMCw41v4UHBuLj1xRmBdJ0NLxxpAoWlrY/edit?usp=sharing",
